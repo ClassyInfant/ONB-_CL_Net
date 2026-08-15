@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.10" tiledversion="1.12.2" orientation="isometric" renderorder="right-down" width="10" height="10" tilewidth="64" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="3">
- <tileset firstgid="1" source="linux_server_2_1_6_062926/assets/rainbow_floor.tsx"/>
- <tileset firstgid="17" source="linux_server_2_1_6_062926/assets/home_warp.tsx"/>
+ <tileset firstgid="1" source="../assets/rainbow_floor.tsx"/>
+ <tileset firstgid="17" source="../assets/home_warp.tsx"/>
  <layer id="1" name="Ground 1" width="10" height="10">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,
@@ -21,9 +21,10 @@
   <object id="2" name="Welcome_Program" type="NPC" x="128" y="96">
    <properties>
     <property name="Asset Name" value="prog"/>
-    <property name="Dialouge Type" value="first"/>
+    <property name="Dialogue Type" value="random"/>
     <property name="Direction" value="Down Left"/>
     <property name="Text 1" value="Welcome to your new server. Replace the default.tmx in areas to replace this!"/>
+    <property name="Text 2" value="Sure is lonely here..."/>
    </properties>
    <point/>
   </object>
